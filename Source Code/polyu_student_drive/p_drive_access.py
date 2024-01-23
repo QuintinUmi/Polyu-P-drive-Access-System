@@ -16,6 +16,3 @@ class p_drive:
     def disconnect(self):
         os.system("net use P: /delete")
         return 0
-
-# net use P: \\phdstud.polyu.edu.hk\student\21101279d /p:qqj030212QQJ030212 /user:hh\21101279d
-# net use P: \\phdstud.polyu.edu.hk\student\21101279d /p:no qqj030212QQJ030212 /user:hh\21101279d 
